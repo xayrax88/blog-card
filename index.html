@@ -10,7 +10,6 @@
 
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link href="/styles.css" rel="stylesheet" />
 
 </head>
@@ -18,21 +17,29 @@
 <body>
   <div class="blog-card flex wrap">
 
-    <div class=""><img class="blog-image center align-center" src="/assets/images/illustration-article.svg"
-        alt="Blog image">
+    <div class="py-10">
+      <img class="blog-image center align-center" src="/assets/images/illustration-article.svg" alt="Blog image">
     </div>
-    <header>
-      <div class="learning-block mx-5 py-5"><span>Learning</span></div>
-      <span class="blog-publish-date mx-5 py-5">Published 21 Dec 2023</span>
-      <h2 class="blog-head mx-5 py-8">HTML & CSS foundations</h2>
-    </header>
-    <div class="flex wrap">
-      <p class="text-center mx-5 py-5">These languages are the backbone of every website, defining structure, content,
-        and
-        presentation.</p>
+    <!-- learning-block -->
+    <div class="flex wrap align-center center"><a class="learning-block align-center text-center">Learning</a>
+      <ul>
+        <li class="blog-publish-date pb-8">Published 21 Dec 2023</li>
+        <li class="pb-8">
+          <h2>HTML & CSS foundations</h2>
+        </li>
+        <li>
+          <p class="gray-text">These languages are the backbone of every website, defining structure, content and
+            presentation.</p>
+        </li>
+      </ul>
     </div>
-    <footer class="flex align-center mx-5 py-10"><img src="/assets/images/image-avatar.webp" class="mx-5 py-5"><span
-        class="mx-5 py-5">Greg Hooper</span></footer>
+
+    <footer>
+      <div class="flex wrap align-center">
+        <img src="/assets/images/image-avatar.webp" class="user-img mx-5 py-5">
+        <span>Greg Hooper</span>
+      </div>
+    </footer>
   </div>
 
 

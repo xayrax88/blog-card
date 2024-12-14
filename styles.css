@@ -1,21 +1,23 @@
 * {
-  font-family: "Rajdhani", sans-serif;
+  font-family: "figtree", sans-serif;
   font-weight: 500;
   font-style: normal;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 0;
 }
 
 body {
   /* justify-content: center;
   align-items: center; */
   background: hsl(47, 88%, 63%);
-  gap: 10px;
+  /* gap: 10px; */
+}
+ul {
+  list-style: none;
 }
 
 .blog-card {
-  justify-content: center;
+  /* justify-content: center; */
   height: 35rem;
   width: 25rem;
   border-style: solid;
@@ -26,21 +28,38 @@ body {
 }
 
 .blog-image {
-  /* display: flex; */
-  /* border-style: none; */
   border-radius: 2rem;
-  /* height: 10rem;
-  width: 10rem; */
 }
 
 .learning-block {
-  height: 40px;
-  width: 80px;
-  border: 1px solid;
+  width: 100px;
+  height: 54px;
+  line-height: 25.2px;
+  border-radius: 27.31px;
+  border-radius: 0.5em;
+  background: hsl(47, 88%, 63%);
+  color: black;
+  font-family: "figtree", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.user-img {
+  height: 60px;
+  width: 50px;
+}
+
+.gray-text {
+  color: hsl(0, 0%, 42%);
+  font-size: 16px;
 }
 
 .mw-50 {
   max-width: 20em;
+}
+
+.ml-10 {
+  margin-left: 10px;
 }
 
 .py-5 {
@@ -55,6 +74,10 @@ body {
 
 .py-8 {
   padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.pb-8 {
   padding-bottom: 8px;
 }
 
@@ -112,4 +135,12 @@ body {
 
 .row {
   flex-direction: row;
+}
+
+.block {
+  display: block;
+}
+
+.max-width {
+  max-width: 800px;
 }
