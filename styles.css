@@ -1,0 +1,115 @@
+* {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  /* justify-content: center;
+  align-items: center; */
+  background: hsl(47, 88%, 63%);
+  gap: 10px;
+}
+
+.blog-card {
+  justify-content: center;
+  height: 35rem;
+  width: 25rem;
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 1px;
+  box-shadow: 10px 10px;
+  background: hsl(0, 0%, 100%);
+}
+
+.blog-image {
+  /* display: flex; */
+  /* border-style: none; */
+  border-radius: 2rem;
+  /* height: 10rem;
+  width: 10rem; */
+}
+
+.learning-block {
+  height: 40px;
+  width: 80px;
+  border: 1px solid;
+}
+
+.mw-50 {
+  max-width: 20em;
+}
+
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mx-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.mx-8 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mx-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mx-15 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
