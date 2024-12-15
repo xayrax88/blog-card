@@ -7,17 +7,18 @@
 }
 
 body {
-  /* justify-content: center;
-  align-items: center; */
   background: hsl(47, 88%, 63%);
-  /* gap: 10px; */
 }
+
 ul {
   list-style: none;
 }
 
+footer {
+  margin-left: 2em;
+}
+
 .blog-card {
-  /* justify-content: center; */
   height: 35rem;
   width: 25rem;
   border-style: solid;
@@ -35,7 +36,6 @@ ul {
   width: 100px;
   height: 54px;
   line-height: 25.2px;
-  border-radius: 27.31px;
   border-radius: 0.5em;
   background: hsl(47, 88%, 63%);
   color: black;
@@ -44,65 +44,48 @@ ul {
   font-size: 16px;
 }
 
-.user-img {
-  height: 60px;
-  width: 50px;
-}
-
 .gray-text {
   color: hsl(0, 0%, 42%);
   font-size: 16px;
 }
 
-.mw-50 {
-  max-width: 20em;
-}
-
-.ml-10 {
-  margin-left: 10px;
-}
-
-.py-5 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.mx-5 {
+/* Spacing & placement*/
+.mx-5px {
   margin-left: 5px;
   margin-right: 5px;
 }
 
-.py-8 {
-  padding-top: 8px;
-  padding-bottom: 8px;
+.ml-2em {
+  margin-left: 2em;
 }
 
-.pb-8 {
-  padding-bottom: 8px;
-}
-
-.mx-8 {
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-.py-10 {
+.py-10px {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.mx-10 {
-  margin-left: 10px;
-  margin-right: 10px;
+.pl-2em {
+  padding-left: 2em;
 }
 
-.mx-15 {
-  margin-left: 15px;
-  margin-right: 15px;
+.pl-0em {
+  padding-left: 0em;
+}
+
+.pb-8px {
+  padding-bottom: 8px;
 }
 
 .flex {
   display: flex;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .center {
@@ -117,30 +100,18 @@ ul {
   align-items: center;
 }
 
-.space-between {
-  justify-content: space-between;
+/*debug*/
+/* .debug-border-blk {
+    border: 1px solid black;
 }
+.debug-border-blu {
+    border: 1px solid blue;
+}
+.debug-border-red {
+    border: 1px solid red;
+}
+.flex.wrap { 
+    border: 1px solid green;
+    } */
 
-.space-around {
-  justify-content: space-around;
-}
-
-.wrap {
-  flex-wrap: wrap;
-}
-
-.column {
-  flex-direction: column;
-}
-
-.row {
-  flex-direction: row;
-}
-
-.block {
-  display: block;
-}
-
-.max-width {
-  max-width: 800px;
-}
+/*blog-card blog-image learning-block flex wrap center align-center gray-text py-10 pb-8 mx-5 */
